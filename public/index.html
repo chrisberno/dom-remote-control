@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<p>This is the Body ...</p>
+<div id="date"></div>
+<br><br>
+<button class="trigger">Click here to trigger the modal!</button>
+		<div class="modal">
+		    <div class="modal-content">
+		        <span class="close-button">×</span>
+		        <h1>Hello, I'm da modal!</h1>
+		    </div>
+		</div>
+
+		<script>
+			const socket =io();
+			socket.on('date', function(data){
+				$('#date').text(data.date);
+			});
+			socket.on('click', function toggleModal() {
+			  modal.classList.toggle("show-modal");
+			});
+		</script>
+		<script src="./modal.js"></script>
+</body>
+</html>
