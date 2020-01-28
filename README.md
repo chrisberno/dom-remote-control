@@ -12,11 +12,11 @@ node app.js  // 'nodemon start' if you've got nodemon installed
 Open and point a browser to http://localhost:8989/
 Open and point a second browser to http://localhost:8989/remote.html
 
-**▶☑️ TO DO**
+**☑️ TO DO**
 - Configure the express app for https on port 8989 - The rest of the site @ https://cityscreen.network runs ok on https but the app crashes 🧐
 
 
 
 
-**Sources:**
-Popup Box Modals With JavaScript: https://sabe.io/tutorials/how-to-create-modal-popup-box
+**Resources**
+jquery popup overlays: https://codepen.io/vladimirs/pens/showcase
