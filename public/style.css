@@ -1,6 +1,9 @@
-body {
-  background-position: center center;
-  background: url(https://i.postimg.cc/V6yZk0g2/cityscreen-TV-test-pattern-1-trans.png) no-repeat center center fixed;
+.hero-image {
+  background-image: url('https://i.postimg.cc/V6yZk0g2/cityscreen-TV-test-pattern-1-trans.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .modal {
     position: fixed;
