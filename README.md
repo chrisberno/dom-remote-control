@@ -3,7 +3,7 @@ Demonstrates Toggle ON/OFF of a DOM modal using socket.io
 # [Picture-In-Picture Overlay Apps For Smart TV](https://chrisberno.net/post/socket-modals/)
 
 **💡 EARLY STAGE STUFF HERE**
-This code is a work in progress and part of a series I intend to develop around immersive and interactive media. It runs, but the features are very limited in this repo, partially because understanding at this base level will help us build and expand the functionality. 
+This code is a work in progress and part of a series I intend to develop around immersive and interactive media and it's use case applications for Smart TVs. It runs, but the features are very limited in this repo, mostly because we're very much in the early stages of this project and also because understanding what's driving the interactivity on the "big screen" at this granular level will help creative minds build and expand the kinds of experiences views can expect from a enabled TV and maybe even change the way we've been thinking about TV for the past 75 years.  
 
 **▶️ TO RUN**
 

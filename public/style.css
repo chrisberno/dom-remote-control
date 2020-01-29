@@ -1,3 +1,7 @@
+body {
+  background-position: center center;
+  background: url(https://i.postimg.cc/V6yZk0g2/cityscreen-TV-test-pattern-1-trans.png) no-repeat center center fixed;
+}
 .modal {
     position: fixed;
     left: 0;
@@ -14,11 +18,31 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 1rem 1.5rem;
     width: 24rem;
     border-radius: 0.5rem;
+}
+.btn{
+  width: 75%;
+  height: 25%;
+  font-weight: bold;
+  color: white;
+  font-size: 48px;
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  background-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .close-button {
     float: right;
@@ -27,10 +51,10 @@
     text-align: center;
     cursor: pointer;
     border-radius: 0.25rem;
-    background-color: lightgray;
+    background-color: transparent;
 }
 .close-button:hover {
-    background-color: darkgray;
+    background-color: transparent;
 }
 .show-modal {
     opacity: 1;
